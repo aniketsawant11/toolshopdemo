@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+   <test name="Auth Tests" thread-count="5">
+        <classes>
+            <class name="runners.Auth_runner"/>
+        </classes>
+    </test>
+    
+ <!-- Search Tests -->
+    <test name="Search Tests" thread-count="5">
+        <classes>
+            <class name="runners.search_runner"/>
+        </classes>
+    </test>
+    
+    <!-- Product Tests -->
+    <test name="Product Tests" thread-count="5">
+        <classes>
+            <class name="runners.Product_runner"/>
+        </classes>
+    </test>
+    
+    <!-- Cart Tests -->
+    <test name="Cart Tests" thread-count="5">
+        <classes>
+            <class name="runners.Cart_runner"/>
+        </classes>
+    </test>
+
+    <!-- Checkout Tests -->
+    <test name="Checkout Tests" thread-count="5">
+        <classes>
+            <class name="runners.Checkout_runner"/>
+        </classes>
+    </test>
+
+    
+</suite> <!-- Suite -->
